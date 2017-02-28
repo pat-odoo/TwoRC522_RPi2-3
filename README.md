@@ -16,9 +16,11 @@ Download:
 $ git clone https://github.com/pat-odoo/TwoRC522_RPi2-3.git
 ```
 Use:
-Create Two Instance of the same Library. (Ex. 1-TwoRC522_RPi2-3 and 2-TwoRC522_RPi2-3)
+Create Two Instance of the same Library. (Ex. 1-TwoRC522_RPi2-3 and 2-TwoRC522_RPi2-3).
+
 Change Line 46 in card_reader.py file.
 In File 1-TwoRC522_RPi2-3 :- 'MIFAREReader = MFRC522(self.RST1, self.SPI_DEV0)'
+
 In File 2-TwoRC522_RPi2-3 :- 'MIFAREReader = MFRC522(self.RST2, self.SPI_DEV1)'
 
 Terminal-1:

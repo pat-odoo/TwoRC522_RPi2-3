@@ -42,5 +42,7 @@ Press Ctrl + z to finish.
 Credits :
 
 https://github.com/lthiery/SPI-Py. - MontaVista Software, Inc., Anton Vorontsov(2007)
+
 Repository of the original class: https://github.com/mxgxw/MFRC522-python. - Mario Gómez
+
 Two RC522 Concept: https://github.com/erivandoramos/TwoRC522RPi

@@ -19,6 +19,7 @@ Use:
 Create Two Instance of the same Library. (Ex. 1-TwoRC522_RPi2-3 and 2-TwoRC522_RPi2-3).
 
 Change Line 46 in card_reader.py file.
+
 In File 1-TwoRC522_RPi2-3 :- 'MIFAREReader = MFRC522(self.RST1, self.SPI_DEV0)'
 
 In File 2-TwoRC522_RPi2-3 :- 'MIFAREReader = MFRC522(self.RST2, self.SPI_DEV1)'
@@ -36,7 +37,7 @@ $ sudo python run_main_test.py
 ```
 Press Ctrl + z to finish.
 
-![alt tag](https://drive.google.com/open?id=0Bz4EDmux79M7QVp5T2FEX1lOUGM)
+![alt tag](https://lh3.googleusercontent.com/QPihGz59OloHDcxZdhvB8tCOJQnXaOCrdoFAwl7yKwWyY1l-JNPehJzeuaohHnNUmPcBhxWLOO2SSHI=w1366-h678-rw)
 
 Credits :
 
